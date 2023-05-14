@@ -1,0 +1,176 @@
+mpic++ -Wall -std=c++11 -fopenmp -Wextra -Wpedantic -lopenblas -O3 -g -DOMPI_SKIP_MPICXX -DNDEBUG step3_mpi.cpp reduction.cpp -o step3_mpi
+========== Running MPI with 1 ranks ==========
+========== Dimension of the problem ==========
+The size is: 1
+N: 15
+NELECS: 30
+NBASIS: 100
+NAUX: 400
+========== Doing MP2 calculation ==========
+Total calculation is done in 0.17s
+====================================
+========== Running MPI with 2 ranks ==========
+========== Dimension of the problem ==========
+The size is: 2
+N: 15
+NELECS: 30
+NBASIS: 100
+NAUX: 400
+========== Doing MP2 calculation ==========
+Total calculation is done in 0.33s
+====================================
+Total calculation is done in 0.33s
+====================================
+========== Running MPI with 4 ranks ==========
+========== Dimension of the problem ==========
+The size is: 4
+N: 15
+NELECS: 30
+NBASIS: 100
+NAUX: 400
+========== Doing MP2 calculation ==========
+Total calculation is done in 0.67s
+====================================
+Total calculation is done in 0.68s
+====================================
+Total calculation is done in 0.68s
+====================================
+Total calculation is done in 0.69s
+====================================
+========== Running MPI with 8 ranks ==========
+========== Dimension of the problem ==========
+The size is: 8
+N: 15
+NELECS: 30
+NBASIS: 100
+NAUX: 400
+========== Doing MP2 calculation ==========
+Total calculation is done in 1.49s
+====================================
+Total calculation is done in 1.50s
+====================================
+Total calculation is done in 1.50s
+====================================
+Total calculation is done in 1.50s
+====================================
+Total calculation is done in 1.50s
+====================================
+Total calculation is done in 1.50s
+====================================
+Total calculation is done in 1.50s
+====================================
+Total calculation is done in 1.50s
+====================================
+========== Running MPI with 16 ranks ==========
+========== Dimension of the problem ==========
+The size is: 16
+N: 15
+NELECS: 30
+NBASIS: 100
+NAUX: 400
+========== Doing MP2 calculation ==========
+Total calculation is done in 3.05s
+====================================
+Total calculation is done in 3.06s
+====================================
+Total calculation is done in 3.06s
+====================================
+Total calculation is done in 3.06s
+====================================
+Total calculation is done in 3.06s
+====================================
+Total calculation is done in 3.06s
+====================================
+Total calculation is done in 3.07s
+====================================
+Total calculation is done in 3.06s
+====================================
+Total calculation is done in 3.06s
+====================================
+Total calculation is done in 3.07s
+====================================
+Total calculation is done in 3.07s
+====================================
+Total calculation is done in 3.06s
+====================================
+Total calculation is done in 3.07s
+====================================
+Total calculation is done in 3.07s
+====================================
+Total calculation is done in 3.07s
+====================================
+Total calculation is done in 3.06s
+====================================
+========== Running MPI with 32 ranks ==========
+========== Dimension of the problem ==========
+The size is: 32
+N: 15
+NELECS: 30
+NBASIS: 100
+NAUX: 400
+========== Doing MP2 calculation ==========
+Total calculation is done in 6.15s
+====================================
+Total calculation is done in 6.16s
+====================================
+Total calculation is done in 6.15s
+====================================
+Total calculation is done in 6.15s
+====================================
+Total calculation is done in 6.16s
+====================================
+Total calculation is done in 6.16s
+====================================
+Total calculation is done in 6.15s
+====================================
+Total calculation is done in 6.16s
+====================================
+Total calculation is done in 6.17s
+====================================
+Total calculation is done in 6.16s
+====================================
+Total calculation is done in 6.16s
+====================================
+Total calculation is done in 6.17s
+====================================
+Total calculation is done in 6.16s
+====================================
+Total calculation is done in 6.16s
+====================================
+Total calculation is done in 6.18s
+====================================
+Total calculation is done in 6.17s
+====================================
+Total calculation is done in 6.17s
+====================================
+Total calculation is done in 6.16s
+====================================
+Total calculation is done in 6.18s
+====================================
+Total calculation is done in 6.16s
+====================================
+Total calculation is done in 6.16s
+====================================
+Total calculation is done in 6.16s
+====================================
+Total calculation is done in 6.16s
+====================================
+Total calculation is done in 6.17s
+====================================
+Total calculation is done in 6.17s
+====================================
+Total calculation is done in 6.17s
+====================================
+Total calculation is done in 6.17s
+====================================
+Total calculation is done in 6.19s
+====================================
+Total calculation is done in 6.19s
+====================================
+Total calculation is done in 6.17s
+====================================
+Total calculation is done in 6.19s
+====================================
+Total calculation is done in 6.19s
+====================================
+rm -f step3_mpi
